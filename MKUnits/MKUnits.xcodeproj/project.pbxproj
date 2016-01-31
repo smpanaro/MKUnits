@@ -53,6 +53,43 @@
 		904F619D177FC8A200CD4DFC /* MKLengthUnit_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 904F619C177FC8A200CD4DFC /* MKLengthUnit_Tests.m */; };
 		904F61A2177FCDEA00CD4DFC /* MKArea_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 904F61A1177FCDEA00CD4DFC /* MKArea_Tests.m */; };
 		904F61A7177FD4EE00CD4DFC /* MKAreaUnit_Imperial_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 904F61A6177FD4EE00CD4DFC /* MKAreaUnit_Imperial_Tests.m */; };
+		AA985EBE1C5EC27E00B563EA /* MKAreaUnit+Imperial.m in Sources */ = {isa = PBXBuildFile; fileRef = 90299BAE1899EA5700FF6782 /* MKAreaUnit+Imperial.m */; };
+		AA985EBF1C5EC27E00B563EA /* MKAreaUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = 90299BB01899EA5700FF6782 /* MKAreaUnit.m */; };
+		AA985EC01C5EC27E00B563EA /* MKByteUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = 90299BB31899EA5700FF6782 /* MKByteUnit.m */; };
+		AA985EC11C5EC27E00B563EA /* MKLengthUnit+Imperial.m in Sources */ = {isa = PBXBuildFile; fileRef = 90299BB61899EA5700FF6782 /* MKLengthUnit+Imperial.m */; };
+		AA985EC21C5EC27E00B563EA /* MKLengthUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = 90299BB81899EA5700FF6782 /* MKLengthUnit.m */; };
+		AA985EC31C5EC27E00B563EA /* MKMassUnit+Imperial.m in Sources */ = {isa = PBXBuildFile; fileRef = 90299BBB1899EA5700FF6782 /* MKMassUnit+Imperial.m */; };
+		AA985EC41C5EC27E00B563EA /* MKMassUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = 90299BBD1899EA5700FF6782 /* MKMassUnit.m */; };
+		AA985EC51C5EC27E00B563EA /* MKTimeUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = 90299BC01899EA5700FF6782 /* MKTimeUnit.m */; };
+		AA985EC61C5EC27E00B563EA /* MKVolumeUnit+Imperial.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E531FF193C832F00F03A74 /* MKVolumeUnit+Imperial.m */; };
+		AA985EC71C5EC27E00B563EA /* MKVolumeUnit+US.m in Sources */ = {isa = PBXBuildFile; fileRef = 8443A58C19408C6D0037DC86 /* MKVolumeUnit+US.m */; };
+		AA985EC81C5EC27E00B563EA /* MKVolumeUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = 841B8616193C94350046EDDD /* MKVolumeUnit.m */; };
+		AA985EC91C5EC27E00B563EA /* MKEnergyUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = 645251C019ED10EB0019D185 /* MKEnergyUnit.m */; };
+		AA985ECA1C5EC27E00B563EA /* MKQuantity.m in Sources */ = {isa = PBXBuildFile; fileRef = 900E1D2B18A4486B00DC1420 /* MKQuantity.m */; };
+		AA985ECB1C5EC27E00B563EA /* MKQuantity+Precision.m in Sources */ = {isa = PBXBuildFile; fileRef = 900E1D2D18A4486B00DC1420 /* MKQuantity+Precision.m */; };
+		AA985ECC1C5EC27E00B563EA /* MKUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = 900E1D2F18A4486B00DC1420 /* MKUnit.m */; };
+		AA985ECD1C5EC27E00B563EA /* MKUnit+Conversion.m in Sources */ = {isa = PBXBuildFile; fileRef = 900E1D3118A4486B00DC1420 /* MKUnit+Conversion.m */; };
+		AA985ECE1C5EC27E00B563EA /* MKUnit+Quantity.m in Sources */ = {isa = PBXBuildFile; fileRef = 900E1D3318A4486B00DC1420 /* MKUnit+Quantity.m */; };
+		AA985ECF1C5EC2A900B563EA /* MKAreaUnit+Imperial.h in Headers */ = {isa = PBXBuildFile; fileRef = 90299BAD1899EA5700FF6782 /* MKAreaUnit+Imperial.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA985ED01C5EC2A900B563EA /* MKAreaUnit.h in Headers */ = {isa = PBXBuildFile; fileRef = 90299BAF1899EA5700FF6782 /* MKAreaUnit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA985ED11C5EC2A900B563EA /* MKByteUnit.h in Headers */ = {isa = PBXBuildFile; fileRef = 90299BB21899EA5700FF6782 /* MKByteUnit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA985ED21C5EC2A900B563EA /* MKLengthUnit+Imperial.h in Headers */ = {isa = PBXBuildFile; fileRef = 90299BB51899EA5700FF6782 /* MKLengthUnit+Imperial.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA985ED31C5EC2A900B563EA /* MKLengthUnit.h in Headers */ = {isa = PBXBuildFile; fileRef = 90299BB71899EA5700FF6782 /* MKLengthUnit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA985ED41C5EC2AA00B563EA /* MKMassUnit+Imperial.h in Headers */ = {isa = PBXBuildFile; fileRef = 90299BBA1899EA5700FF6782 /* MKMassUnit+Imperial.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA985ED51C5EC2AA00B563EA /* MKMassUnit.h in Headers */ = {isa = PBXBuildFile; fileRef = 90299BBC1899EA5700FF6782 /* MKMassUnit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA985ED61C5EC2AA00B563EA /* MKTimeUnit.h in Headers */ = {isa = PBXBuildFile; fileRef = 90299BBF1899EA5700FF6782 /* MKTimeUnit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA985ED71C5EC2AA00B563EA /* MKVolumeUnit+Imperial.h in Headers */ = {isa = PBXBuildFile; fileRef = 84E531FE193C832F00F03A74 /* MKVolumeUnit+Imperial.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA985ED81C5EC2AA00B563EA /* MKVolumeUnit+US.h in Headers */ = {isa = PBXBuildFile; fileRef = 8443A58B19408C6D0037DC86 /* MKVolumeUnit+US.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA985ED91C5EC2AA00B563EA /* MKVolumeUnit.h in Headers */ = {isa = PBXBuildFile; fileRef = 841B8615193C94350046EDDD /* MKVolumeUnit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA985EDA1C5EC2AA00B563EA /* MKEnergyUnit.h in Headers */ = {isa = PBXBuildFile; fileRef = 645251BF19ED10EB0019D185 /* MKEnergyUnit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA985EDB1C5EC2AA00B563EA /* MKUnits.h in Headers */ = {isa = PBXBuildFile; fileRef = 900E1D3418A4486B00DC1420 /* MKUnits.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA985EDC1C5EC2AA00B563EA /* MKMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 900E1D2918A4486B00DC1420 /* MKMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA985EDD1C5EC2AA00B563EA /* MKQuantity.h in Headers */ = {isa = PBXBuildFile; fileRef = 900E1D2A18A4486B00DC1420 /* MKQuantity.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA985EDE1C5EC2AA00B563EA /* MKQuantity+Precision.h in Headers */ = {isa = PBXBuildFile; fileRef = 900E1D2C18A4486B00DC1420 /* MKQuantity+Precision.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA985EDF1C5EC2AA00B563EA /* MKUnit.h in Headers */ = {isa = PBXBuildFile; fileRef = 900E1D2E18A4486B00DC1420 /* MKUnit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA985EE01C5EC2AA00B563EA /* MKUnit+Conversion.h in Headers */ = {isa = PBXBuildFile; fileRef = 900E1D3018A4486B00DC1420 /* MKUnit+Conversion.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA985EE11C5EC2AA00B563EA /* MKUnit+Quantity.h in Headers */ = {isa = PBXBuildFile; fileRef = 900E1D3218A4486B00DC1420 /* MKUnit+Quantity.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA985EE81C5ED23A00B563EA /* MKFoundationKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA985EE51C5EC86100B563EA /* MKFoundationKit.framework */; };
 		BE851324B7574A238FC4CAAE /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8801CF4A5FB54F4EBBF7595B /* libPods.a */; };
 		F01588EF7C664B74B8BBE5E8 /* libPods-MKUnitsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F1F1D34DC47C415180711C40 /* libPods-MKUnitsTests.a */; };
 /* End PBXBuildFile section */
@@ -143,6 +180,9 @@
 		9069CC82177FC5420056A364 /* MKMassUnit_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKMassUnit_Tests.m; sourceTree = "<group>"; };
 		9FE74B0DE5577F4A4B48797F /* Pods-MKUnitsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MKUnitsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MKUnitsTests/Pods-MKUnitsTests.release.xcconfig"; sourceTree = "<group>"; };
 		A4EE78A3090B77CE758D3897 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		AA985EB61C5EC24E00B563EA /* MKUnits.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MKUnits.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA985EBA1C5EC24F00B563EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA985EE51C5EC86100B563EA /* MKFoundationKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MKFoundationKit.framework; path = ../Carthage/Build/iOS/MKFoundationKit.framework; sourceTree = "<group>"; };
 		C91C7365C24162864D155B23 /* Pods-MKUnitsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MKUnitsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MKUnitsTests/Pods-MKUnitsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F1F1D34DC47C415180711C40 /* libPods-MKUnitsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MKUnitsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -167,6 +207,14 @@
 				90370087177D0BD400708FEA /* UIKit.framework in Frameworks */,
 				90370088177D0BD400708FEA /* Foundation.framework in Frameworks */,
 				F01588EF7C664B74B8BBE5E8 /* libPods-MKUnitsTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA985EB21C5EC24E00B563EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA985EE81C5ED23A00B563EA /* MKFoundationKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,6 +373,7 @@
 			children = (
 				9037006D177D0BD400708FEA /* MKUnits */,
 				9037008B177D0BD400708FEA /* MKUnitsTests */,
+				AA985EB71C5EC24E00B563EA /* MKUnits-iOS */,
 				90370066177D0BD400708FEA /* Frameworks */,
 				90370065177D0BD400708FEA /* Products */,
 				49330387C476CD5A443F5F02 /* Pods */,
@@ -336,6 +385,7 @@
 			children = (
 				90370064177D0BD400708FEA /* MKUnits.app */,
 				90370084177D0BD400708FEA /* MKUnitsTests.xctest */,
+				AA985EB61C5EC24E00B563EA /* MKUnits.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -409,7 +459,45 @@
 			name = "core-tests";
 			sourceTree = "<group>";
 		};
+		AA985EB71C5EC24E00B563EA /* MKUnits-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				AA985EE51C5EC86100B563EA /* MKFoundationKit.framework */,
+				AA985EBA1C5EC24F00B563EA /* Info.plist */,
+			);
+			path = "MKUnits-iOS";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		AA985EB31C5EC24E00B563EA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA985ECF1C5EC2A900B563EA /* MKAreaUnit+Imperial.h in Headers */,
+				AA985ED01C5EC2A900B563EA /* MKAreaUnit.h in Headers */,
+				AA985ED11C5EC2A900B563EA /* MKByteUnit.h in Headers */,
+				AA985ED21C5EC2A900B563EA /* MKLengthUnit+Imperial.h in Headers */,
+				AA985ED31C5EC2A900B563EA /* MKLengthUnit.h in Headers */,
+				AA985ED41C5EC2AA00B563EA /* MKMassUnit+Imperial.h in Headers */,
+				AA985ED51C5EC2AA00B563EA /* MKMassUnit.h in Headers */,
+				AA985ED61C5EC2AA00B563EA /* MKTimeUnit.h in Headers */,
+				AA985ED71C5EC2AA00B563EA /* MKVolumeUnit+Imperial.h in Headers */,
+				AA985ED81C5EC2AA00B563EA /* MKVolumeUnit+US.h in Headers */,
+				AA985ED91C5EC2AA00B563EA /* MKVolumeUnit.h in Headers */,
+				AA985EDA1C5EC2AA00B563EA /* MKEnergyUnit.h in Headers */,
+				AA985EDB1C5EC2AA00B563EA /* MKUnits.h in Headers */,
+				AA985EDC1C5EC2AA00B563EA /* MKMacros.h in Headers */,
+				AA985EDD1C5EC2AA00B563EA /* MKQuantity.h in Headers */,
+				AA985EDE1C5EC2AA00B563EA /* MKQuantity+Precision.h in Headers */,
+				AA985EDF1C5EC2AA00B563EA /* MKUnit.h in Headers */,
+				AA985EE01C5EC2AA00B563EA /* MKUnit+Conversion.h in Headers */,
+				AA985EE11C5EC2AA00B563EA /* MKUnit+Quantity.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		90370063177D0BD400708FEA /* MKUnits */ = {
@@ -452,6 +540,24 @@
 			productReference = 90370084177D0BD400708FEA /* MKUnitsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		AA985EB51C5EC24E00B563EA /* MKUnits-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA985EBD1C5EC24F00B563EA /* Build configuration list for PBXNativeTarget "MKUnits-iOS" */;
+			buildPhases = (
+				AA985EB11C5EC24E00B563EA /* Sources */,
+				AA985EB21C5EC24E00B563EA /* Frameworks */,
+				AA985EB31C5EC24E00B563EA /* Headers */,
+				AA985EB41C5EC24E00B563EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MKUnits-iOS";
+			productName = "MKUnits-iOS";
+			productReference = AA985EB61C5EC24E00B563EA /* MKUnits.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -461,6 +567,11 @@
 				LastTestingUpgradeCheck = 0510;
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Michal Konturek";
+				TargetAttributes = {
+					AA985EB51C5EC24E00B563EA = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
 			};
 			buildConfigurationList = 9037005F177D0BD400708FEA /* Build configuration list for PBXProject "MKUnits" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -476,6 +587,7 @@
 			targets = (
 				90370063177D0BD400708FEA /* MKUnits */,
 				90370083177D0BD400708FEA /* MKUnitsTests */,
+				AA985EB51C5EC24E00B563EA /* MKUnits-iOS */,
 			);
 		};
 /* End PBXProject section */
@@ -497,6 +609,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				90370090177D0BD400708FEA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA985EB41C5EC24E00B563EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -623,6 +742,30 @@
 				901FACC217809FEB00103B0C /* MKQuantity_Precision_Tests.m in Sources */,
 				9036146B177FAC0800E3FAE1 /* MKByteUnit_Tests.m in Sources */,
 				841B861B193C97210046EDDD /* MKVolumeUnit_Imperial_Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA985EB11C5EC24E00B563EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA985EBE1C5EC27E00B563EA /* MKAreaUnit+Imperial.m in Sources */,
+				AA985EBF1C5EC27E00B563EA /* MKAreaUnit.m in Sources */,
+				AA985EC01C5EC27E00B563EA /* MKByteUnit.m in Sources */,
+				AA985EC11C5EC27E00B563EA /* MKLengthUnit+Imperial.m in Sources */,
+				AA985EC21C5EC27E00B563EA /* MKLengthUnit.m in Sources */,
+				AA985EC31C5EC27E00B563EA /* MKMassUnit+Imperial.m in Sources */,
+				AA985EC41C5EC27E00B563EA /* MKMassUnit.m in Sources */,
+				AA985EC51C5EC27E00B563EA /* MKTimeUnit.m in Sources */,
+				AA985EC61C5EC27E00B563EA /* MKVolumeUnit+Imperial.m in Sources */,
+				AA985EC71C5EC27E00B563EA /* MKVolumeUnit+US.m in Sources */,
+				AA985EC81C5EC27E00B563EA /* MKVolumeUnit.m in Sources */,
+				AA985EC91C5EC27E00B563EA /* MKEnergyUnit.m in Sources */,
+				AA985ECA1C5EC27E00B563EA /* MKQuantity.m in Sources */,
+				AA985ECB1C5EC27E00B563EA /* MKQuantity+Precision.m in Sources */,
+				AA985ECC1C5EC27E00B563EA /* MKUnit.m in Sources */,
+				AA985ECD1C5EC27E00B563EA /* MKUnit+Conversion.m in Sources */,
+				AA985ECE1C5EC27E00B563EA /* MKUnit+Quantity.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -781,6 +924,83 @@
 			};
 			name = Release;
 		};
+		AA985EBB1C5EC24F00B563EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/Carthage/Build/iOS";
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = "MKUnits-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.michalkonturek.MKUnits-iOS";
+				PRODUCT_NAME = MKUnits;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AA985EBC1C5EC24F00B563EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/Carthage/Build/iOS";
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = "MKUnits-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.michalkonturek.MKUnits-iOS";
+				PRODUCT_NAME = MKUnits;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -807,6 +1027,15 @@
 			buildConfigurations = (
 				9037009A177D0BD400708FEA /* Debug */,
 				9037009B177D0BD400708FEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA985EBD1C5EC24F00B563EA /* Build configuration list for PBXNativeTarget "MKUnits-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA985EBB1C5EC24F00B563EA /* Debug */,
+				AA985EBC1C5EC24F00B563EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
