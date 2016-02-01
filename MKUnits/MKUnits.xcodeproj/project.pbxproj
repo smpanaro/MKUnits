@@ -82,7 +82,6 @@
 		AA985ED81C5EC2AA00B563EA /* MKVolumeUnit+US.h in Headers */ = {isa = PBXBuildFile; fileRef = 8443A58B19408C6D0037DC86 /* MKVolumeUnit+US.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AA985ED91C5EC2AA00B563EA /* MKVolumeUnit.h in Headers */ = {isa = PBXBuildFile; fileRef = 841B8615193C94350046EDDD /* MKVolumeUnit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AA985EDA1C5EC2AA00B563EA /* MKEnergyUnit.h in Headers */ = {isa = PBXBuildFile; fileRef = 645251BF19ED10EB0019D185 /* MKEnergyUnit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AA985EDB1C5EC2AA00B563EA /* MKUnits.h in Headers */ = {isa = PBXBuildFile; fileRef = 900E1D3418A4486B00DC1420 /* MKUnits.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AA985EDC1C5EC2AA00B563EA /* MKMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 900E1D2918A4486B00DC1420 /* MKMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AA985EDD1C5EC2AA00B563EA /* MKQuantity.h in Headers */ = {isa = PBXBuildFile; fileRef = 900E1D2A18A4486B00DC1420 /* MKQuantity.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AA985EDE1C5EC2AA00B563EA /* MKQuantity+Precision.h in Headers */ = {isa = PBXBuildFile; fileRef = 900E1D2C18A4486B00DC1420 /* MKQuantity+Precision.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -90,6 +89,7 @@
 		AA985EE01C5EC2AA00B563EA /* MKUnit+Conversion.h in Headers */ = {isa = PBXBuildFile; fileRef = 900E1D3018A4486B00DC1420 /* MKUnit+Conversion.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AA985EE11C5EC2AA00B563EA /* MKUnit+Quantity.h in Headers */ = {isa = PBXBuildFile; fileRef = 900E1D3218A4486B00DC1420 /* MKUnit+Quantity.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AA985EE81C5ED23A00B563EA /* MKFoundationKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA985EE51C5EC86100B563EA /* MKFoundationKit.framework */; };
+		AA985EF21C5ED88900B563EA /* MKUnits.h in Headers */ = {isa = PBXBuildFile; fileRef = AA985EF11C5ED88900B563EA /* MKUnits.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BE851324B7574A238FC4CAAE /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8801CF4A5FB54F4EBBF7595B /* libPods.a */; };
 		F01588EF7C664B74B8BBE5E8 /* libPods-MKUnitsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F1F1D34DC47C415180711C40 /* libPods-MKUnitsTests.a */; };
 /* End PBXBuildFile section */
@@ -183,6 +183,7 @@
 		AA985EB61C5EC24E00B563EA /* MKUnits.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MKUnits.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA985EBA1C5EC24F00B563EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA985EE51C5EC86100B563EA /* MKFoundationKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MKFoundationKit.framework; path = ../Carthage/Build/iOS/MKFoundationKit.framework; sourceTree = "<group>"; };
+		AA985EF11C5ED88900B563EA /* MKUnits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKUnits.h; sourceTree = "<group>"; };
 		C91C7365C24162864D155B23 /* Pods-MKUnitsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MKUnitsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MKUnitsTests/Pods-MKUnitsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F1F1D34DC47C415180711C40 /* libPods-MKUnitsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MKUnitsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -464,6 +465,7 @@
 			children = (
 				AA985EE51C5EC86100B563EA /* MKFoundationKit.framework */,
 				AA985EBA1C5EC24F00B563EA /* Info.plist */,
+				AA985EF11C5ED88900B563EA /* MKUnits.h */,
 			);
 			path = "MKUnits-iOS";
 			sourceTree = "<group>";
@@ -487,12 +489,12 @@
 				AA985ED81C5EC2AA00B563EA /* MKVolumeUnit+US.h in Headers */,
 				AA985ED91C5EC2AA00B563EA /* MKVolumeUnit.h in Headers */,
 				AA985EDA1C5EC2AA00B563EA /* MKEnergyUnit.h in Headers */,
-				AA985EDB1C5EC2AA00B563EA /* MKUnits.h in Headers */,
 				AA985EDC1C5EC2AA00B563EA /* MKMacros.h in Headers */,
 				AA985EDD1C5EC2AA00B563EA /* MKQuantity.h in Headers */,
 				AA985EDE1C5EC2AA00B563EA /* MKQuantity+Precision.h in Headers */,
 				AA985EDF1C5EC2AA00B563EA /* MKUnit.h in Headers */,
 				AA985EE01C5EC2AA00B563EA /* MKUnit+Conversion.h in Headers */,
+				AA985EF21C5ED88900B563EA /* MKUnits.h in Headers */,
 				AA985EE11C5EC2AA00B563EA /* MKUnit+Quantity.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
