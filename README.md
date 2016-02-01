@@ -1,5 +1,10 @@
 # MKUnits
 
+
+## smpanaro's notes
+
+I hackily added Carthage support for this. There's some weirdness in "Framework Search Paths" due to the project not living in the root directory. I also removed the MKFoundationKit import from the header, which I don't totally understand.
+
 [![Twitter](https://img.shields.io/badge/contact-@MichalKonturek-blue.svg?style=flat)](http://twitter.com/michalkonturek)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://github.com/michalkonturek/MKUnits/blob/master/LICENSE)
 [![CocoaPods](https://img.shields.io/cocoapods/v/MKUnits.svg?style=flat)](https://github.com/michalkonturek/MKUnits)
